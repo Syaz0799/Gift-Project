@@ -1,0 +1,84 @@
+/* components/Header.css */
+.header {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.875rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart-icon {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.25rem;
+}
+
+.points-balance {
+  background-color: #b9ccfa; /* Dark background to match the example */
+  color: #000000; /* Orange text for points */
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.account-profile {
+  background-color: #f3e8ff; /* Dark background to match the example */
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+.account-profile:hover {
+  background-color: #d7d4d4; /* Slightly lighter on hover */
+}
+
+.logout-button {
+  background-color: #f3e8ff; /* Light purple background */
+  color: #000000;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #e9d5ff; /* Slightly darker on hover */
+}
